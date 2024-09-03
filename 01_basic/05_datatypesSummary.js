@@ -11,7 +11,7 @@ Ex: Array, Objects, Functions
 
 let id = Symbol("123")
 let anotherId = Symbol("1230")
-console.log(typeof id);
+// console.log(typeof id);
 let number = 87462154654986159233n //BigInt
 
 let heros = ["Spiderman", "Thor", "Ironman"]
@@ -21,16 +21,16 @@ let myObj = {
     age : 25,
     roll : 45,
 }
-console.log(typeof myObj);
-console.log(heros);
-console.log(typeof heros);
+// console.log(typeof myObj);
+// console.log(heros);
+// console.log(typeof heros);
 
 
 let myFunc = function(){
     console.log("Hello World")
 }
 
-console.log(typeof myFunc);
+// console.log(typeof myFunc);
 
 /* Premitive Datatypes
 
@@ -54,3 +54,25 @@ ii)              Array                                 object
 iii)             Function                              function(object)
 
 */
+
+
+// ------------------------------------------------------------------------------------------------------
+//  Memory : 1. Stack(All primitive datatypes) 2. Heap(All non-privitive datatypes)
+
+// let person1 = "Amit"
+// let person2 = person1 
+// person2 = "Suresh" // String Primitive dt pass value copy, any change does'nt reflect original value
+// console.log(person1);
+// console.log(person2);
+
+let student1 = {
+    identity : "Bapan",
+    roll : 21,
+}
+
+let student2 = student1
+
+student2.identity = "Suman" //Object Non-primitive dt pass reference not copy, any change reflect original value
+
+console.log(student1)
+console.log(student2)
