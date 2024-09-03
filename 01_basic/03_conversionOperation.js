@@ -43,10 +43,10 @@ console.log(modD);
 
 
 let isTure = 0 //0 false, any other num (-/+) true. Empty sting "" false other sting true
-let booleanIsTrue = Boolean(isTure)
+let booleanIsTrue = Boolean(isTure) //Num->Boolean
 console.log(booleanIsTrue)
 
-let someNum = 53
+let someNum = 53 //Num->String
 let stringNum = String(someNum)
 console.log(typeof stringNum)
 console.log(stringNum)
