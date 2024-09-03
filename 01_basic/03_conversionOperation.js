@@ -75,3 +75,22 @@ let negValue = -(value)
 // let n = 1+2+"2"+3+4
 // console.log(typeof n) //string
 
+// console.log(true) //true
+// console.log(true+) //not valid syntax
+// console.log(+true)  //1
+// console.log(3+true) //4
+
+// console.log(typeof (1+"")) //string
+
+// console.log(typeof ""); //string
+
+// let num1, num2, num3
+// num1 = num2 = num3 = 2+2
+// console.log(num1+num2+num3)
+
+// let n = 100
+// console.log(n++);
+// console.log(n);
+// console.log(++n);
+
+
