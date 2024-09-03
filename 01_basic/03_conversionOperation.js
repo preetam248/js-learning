@@ -1,3 +1,5 @@
+/*
+// ---------------Conversion----------------
 let score = 53
 
 console.log(typeof score)
@@ -50,3 +52,26 @@ let someNum = 53 //Num->String
 let stringNum = String(someNum)
 console.log(typeof stringNum)
 console.log(stringNum)
+*/
+
+//************* Operations ***************
+
+let value = 45
+let negValue = -(value)
+// console.log(negValue)
+// console.log(5**2) //act as  5 power 2
+
+// let str1 = "Preetam"
+// let str2 = " Das"
+// console.log(str1+str2)
+
+// console.log("1"+2)
+// console.log(1+"3")
+// console.log("1"+"4")
+// console.log("1"+2+2) //after string all value concatenate as string
+// console.log(1+2+"2") //before string val calcutale then concatenate to string
+// console.log(1+2+"2"+3+4)
+
+// let n = 1+2+"2"+3+4
+// console.log(typeof n) //string
+
