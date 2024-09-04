@@ -13,6 +13,9 @@ let userObj = {
     logInDay : ["Monday","Wednesday"],
     "city name" : "Serampore",
     [mySym] : "Hello", //way to define symbol in obj
+    greeting : function () {
+        console.log("Hep Hep Hurray")   
+    }
 }
 
 // console.log(userObj)
@@ -28,7 +31,7 @@ let userObj = {
 // userObj.age = 39
 // console.log(userObj);
 
-userObj.greeting = function  () {
+userObj.greetingOne = function  () {
     console.log("Hello world")
 }
 userObj.greetingTwo = function  () {
@@ -36,9 +39,10 @@ userObj.greetingTwo = function  () {
 }
 
 console.log(userObj.greeting())
+console.log(userObj.greetingOne())
 console.log(userObj.greetingTwo())
 
-console.log(userObj);
+// console.log(userObj);
 
 
 
