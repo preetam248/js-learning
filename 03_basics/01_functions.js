@@ -36,3 +36,34 @@
 // }
 
 // console.log(loginUserMsg())
+
+function calculateCardPrice (...num) { //... rest operator
+  return num; //return an array
+}
+
+// console.log(calculateCardPrice(100,200,300))
+
+function calculateCardPrice (val, val2, ...num) { //... rest operator
+    return num; //return an array
+  }
+  
+//   console.log(calculateCardPrice(100,200,300,400))
+
+  let obj = {
+    name: "Preetam",
+    age: 25
+  }
+
+  function handleObj(anyObj){
+    console.log(`Name is ${anyObj.name} and age is ${anyObj.age}.`)
+  }
+
+// handleObj(obj)
+
+const myArr = [201,23,7743,613,]
+
+function handleArr(anyArr){
+    return anyArr
+}
+
+console.log(handleArr(myArr))
