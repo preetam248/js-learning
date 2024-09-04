@@ -60,3 +60,17 @@ let myUser = [
 
 // console.log(tinderUser.hasOwnProperty("height"))
 // console.log(tinderUser.hasOwnProperty("password"))
+
+let course = {
+    courseName : "JavaScript",
+    coursePrice : "900",
+    courseInstructor : "Preetam"
+}
+
+// console.log(course.courseInstructor)
+
+// let {courseInstructor} = course
+// console.log(courseInstructor)
+
+let {courseInstructor : instructor} = course //de-structuring
+console.log(instructor)
