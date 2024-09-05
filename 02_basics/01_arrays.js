@@ -1,4 +1,4 @@
-// //JavaScript arrays are resizable and can contain a mix of different
+// //JavaScript arrays are resizable and can contain a mix of different data
 // let myArr = [45,12,63,75]
 // let heros = ["Batman","Superman","Flash","Wonder Woman"]
 // let numbers = new Array(12,13,1,4,9,64)
