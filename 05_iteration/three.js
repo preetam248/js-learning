@@ -16,9 +16,9 @@ let numbers = [1,2,3,4,5,6,7,8,9,10]
 // console.log(returnValue)
 
 let returnValue = numbers.filter( (num) => {
-    return num>=5 //as we open scope by {} now we need to return value explicitly 
+    return num >5 //as we open scope by {} now we need to return value explicitly 
 })//
-
+console.log(returnValue)
 let newNum = []
 
 numbers.forEach( (num) => {
@@ -54,6 +54,6 @@ let books = [
 
 // let returnBook = books.filter( (book) => book.genre === 'history' )
 // let returnBook = books.filter( (book) => book.publish >= 2000 )
-let returnBook = books.filter( (book) => book.publish >= 2000 && book.genre === 'history')
+// let returnBook = books.filter( (book) => book.publish >= 2000 && book.genre === 'history')
 
-console.log(returnBook)
+// console.log(returnBook)
