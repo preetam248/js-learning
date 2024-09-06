@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: #212121;">
+    
+</body>
+
+<script>
+    const myDiv = document.createElement('div')
+    console.log(myDiv)
+    myDiv.className = "my-div-class"
+    myDiv.id = '6'
+    myDiv.setAttribute('title','generated organise')
+    myDiv.style.backgroundColor = 'green'
+    myDiv.style.padding = '15px'
+    myDiv.style.height = '25px'
+    myDiv.innerText = 'chai aur code '
+    const myTextNode = document.createTextNode('Happy coding')
+    myDiv.appendChild(myTextNode)
+
+    document.body.appendChild(myDiv)
+</script>
+</html>
