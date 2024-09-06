@@ -16,7 +16,7 @@
     function addListItem (item){
         const list = document.querySelector('.languages')
         const myItem = document.createElement('li')
-        myItem.innerText = item
+        myItem.innerText = `${item}` //conv to string if not
         list.appendChild(myItem)
     }
     // addListItem('java')
