@@ -12,6 +12,7 @@
 </body>
 
 <script>
+    //function to add list item
     function addListItem (item){
         const list = document.querySelector('.languages')
         const myItem = document.createElement('li')
@@ -28,5 +29,18 @@
         document.querySelector('.languages').appendChild(list)
     }
     addLangOptm('C sharp')
+
+    //now replace text
+
+    const listItem = document.querySelector('li:nth-child(2)')
+    const newListItem = document.createElement('li')
+    newListItem.appendChild(document.createTextNode('typescript'))
+    listItem.replaceWith(newListItem)
+
+    //now remove
+
+    const lastItem = document.querySelector('li:last-child')
+    lastItem.remove()
+
 </script>
 </html>
