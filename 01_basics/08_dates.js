@@ -24,7 +24,7 @@ let myDate = new Date()
 
 // let myTimeStamp = Date.now()
 // console.log(myTimeStamp); //milisec
-// // console.log(myCreatedDate.getTime());
+// console.log(myCreatedDate.getTime());
 // console.log(Math.floor(myTimeStamp/1000)); //sec
 
 let newDate = new Date();

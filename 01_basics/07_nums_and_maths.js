@@ -10,8 +10,9 @@
 // console.log(balance.toFixed(2))
 // console.log(typeof (balance.toFixed(2)))
 
-// let num = 23.485
-// console.log(num.toPrecision(3)) //use to make round of value, argument denote number of digit shuld precise
+let num = 23.485
+console.log(num.toPrecision(3)) //use to make round of value, argument denote number of digit shuld precise //23.5
+console.log(typeof num.toPrecision(3)) //string
 
 // let hundred = 100000
 // console.log(hundred.toLocaleString("en-IN"))
@@ -21,9 +22,9 @@
 // console.log(Number.MAX_SAFE_INTEGER)
 
 // --------------------Math---------------------
-// console.log(Math.abs(-18))
-// console.log(Math.round(4.2))
-// console.log(Math.round(4.6))
+// console.log(Math.abs(-18)) //18
+// console.log(Math.round(4.2)) //4
+// console.log(Math.round(4.6)) //5
 // console.log(Math.floor(4.6)) //o/p=>4
 // console.log(Math.ceil(4.2)) //o/p=>5
 
@@ -34,6 +35,6 @@
 let min = 10
 let max = 20
 // console.log(Math.floor(Math.random() * (max-min+1) + min)) //include both min and max value
-console.log(Math.floor(Math.random() * (max-min) + min)) //include min and exclude max value
+// console.log(Math.floor(Math.random() * (max-min) + min)) //include min and exclude max value
 
 

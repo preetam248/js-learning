@@ -14,7 +14,7 @@ let anotherId = Symbol("1230")
 // console.log(typeof id);
 let number = 87462154654986159233n //BigInt
 
-let heros = ["Spiderman", "Thor", "Ironman"]
+let heros = ["Spiderman", "Thor", "Ironman"] //Array
 
 let myObj = {
     person : "Preetam",
