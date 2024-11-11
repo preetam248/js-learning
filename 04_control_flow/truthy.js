@@ -7,7 +7,7 @@ if(userName){
 }
 
 //Falsy value 
-//  false, {}, 0, -0, BigInt 0n, null, undefined
+//  false, "", 0, -0, BigInt 0n, null, undefined
 // Surprising trusthy valus 
 // "false", 'false', '0', "0", "<space>", -1, [], {}, function (){}, ()=>{}
 
