@@ -6,9 +6,9 @@ if(userName){
     console.log(`not have user name`)
 }
 
-//Falsy value 
+//Falsy values 
 //  false, "", 0, -0, BigInt 0n, null, undefined
-// Surprising trusthy valus 
+// Surprising trusty values 
 // "false", 'false', '0', "0", "<space>", -1, [], {}, function (){}, ()=>{}
 
 let arr = []
